@@ -1,0 +1,29 @@
+---
+import { getCategoryUrl, url } from "../utils/url-utils";
+---
+
+<div class="card-base px-6 md:px-9 py-6 mb-4">
+    <img src={url("/images/doll.jpg")} alt="工位上的蓝白玩偶，脖子上系着心形铃铛" class="w-44 h-auto rounded-xl mx-auto mb-3" />
+    <p class="text-50 text-sm text-center mb-4">工位上坐着一只。蓝的，白肚子，铃铛是心形的。</p>
+    <div class="text-sm font-bold text-[var(--primary)] mb-2">写给别人的，和写给自己的</div>
+    <p class="text-90 text-lg leading-relaxed">
+        简历是写给别人的，写得规矩。其余是自己的：牢骚、旅行，还有偶尔记下来的笔记。
+    </p>
+    <p class="text-75 mt-2 leading-relaxed">
+        对面是山。山边上是工厂。五点多，山先暗下去。
+    </p>
+    <div class="flex flex-wrap gap-3 mt-5">
+        <a href={url("/now/")} class="btn-regular rounded-lg h-10 px-4 font-bold active:scale-95">
+            此刻
+        </a>
+        <a href={url("/about/")} class="btn-regular rounded-lg h-10 px-4 font-bold active:scale-95">
+            看简历
+        </a>
+        <a href={getCategoryUrl("牢骚感言")} class="btn-regular rounded-lg h-10 px-4 font-bold active:scale-95">
+            先看牢骚
+        </a>
+        <a href={url("/guestbook/")} class="btn-regular rounded-lg h-10 px-4 font-bold active:scale-95">
+            留言
+        </a>
+    </div>
+</div>

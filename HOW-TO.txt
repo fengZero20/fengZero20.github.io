@@ -1,0 +1,12 @@
+After unzip:
+
+  pnpm install
+  pnpm dev
+
+Open http://localhost:4321
+
+Build:
+
+  pnpm build
+
+This zip is source code only (no node_modules). You can develop from it again.

@@ -1,0 +1,15 @@
+---
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+
+const address = "1173240618@qq.com";
+const mailto = `mailto:${address}?subject=${encodeURIComponent("留言")}`;
+---
+<MainGridLayout title="留言" description="想留一句，寄到 QQ 邮箱。">
+    <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+        <div class="card-base z-10 px-9 py-6 relative w-full">
+            <p class="text-90 text-lg leading-relaxed">想留一句，寄到这个邮箱。</p>
+            <p class="text-75 mt-3">{address}</p>
+            <a href={mailto} class="btn-regular rounded-lg h-10 px-4 font-bold active:scale-95 inline-flex mt-5">写一封</a>
+        </div>
+    </div>
+</MainGridLayout>
