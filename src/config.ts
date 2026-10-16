@@ -10,7 +10,7 @@ import { LinkPreset } from "./types/config";
 export const siteConfig: SiteConfig = {
 	title: "zero",
 	subtitle: "写给别人的，和写给自己的",
-	url: "http://localhost:4321/",
+	url: "https://lindyy.gitee.io/site/",
 	lang: "zh_CN",
 	themeColor: {
 		hue: 250,
