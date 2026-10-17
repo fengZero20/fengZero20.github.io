@@ -29,3 +29,6 @@ yarn.lock
 # ide
 .idea
 *.iml
+
+# local originals, not for the site
+.local/

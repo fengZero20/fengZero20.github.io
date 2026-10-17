@@ -10,7 +10,7 @@ import { LinkPreset } from "./types/config";
 export const siteConfig: SiteConfig = {
 	title: "zero",
 	subtitle: "写给别人的，和写给自己的",
-	url: "https://lindyy.gitee.io/site/",
+	url: "https://fengzero20.github.io/",
 	lang: "zh_CN",
 	themeColor: {
 		hue: 250,
